@@ -1,0 +1,70 @@
+html, body, h1, p {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 280px;
+    text-align: center;
+    min-height: 90vh;
+}
+
+.content {
+    font-weight: 300;
+    margin-top: 1em;
+}
+
+.contact-form {
+    margin-top: 1em;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2.5em;
+}
+
+.title {
+    margin-top: 1em;
+}
+
+.footer {
+    font-weight: 300;
+}
+
+.contact-form label {
+    position: absolute;
+    left: -99999px;
+}
+
+.btn {
+    display: block;
+    border: none;
+    background-color: #54C1DE;
+    color: #FFF;
+    font-family: 300;
+    padding: .7em 0;
+    margin-top: 1em;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.content-wrapper {
+    margin-top: 10%;
+    flex: 1;
+}
