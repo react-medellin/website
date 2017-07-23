@@ -49,9 +49,13 @@ class App extends Component {
         </div>
         <footer className="footer">
           Made with
-          <span role="img" aria-label="love">❤️</span>
+          <span
+            className="emoji"
+            role="img"
+            aria-label="love"
+          >❤️</span>
           by
-          <strong>React Medellín</strong>
+          <strong> React Medellín</strong>
         </footer>
       </main>
     );
