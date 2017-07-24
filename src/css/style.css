@@ -47,6 +47,11 @@ body {
     font-weight: 300;
 }
 
+.emoji {
+    display: inline-block;
+    margin: 0 .1em;
+}
+
 .contact-form label {
     position: absolute;
     left: -99999px;
